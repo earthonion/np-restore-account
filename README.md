@@ -93,6 +93,20 @@ The payload:
 4. Writes every field verbatim to the system registry via `sceRegMgrSet*`
 5. No patching or modification — it purely copies existing `config.dat` data to the registry
 
+## FAQ
+
+**Can I download my games and licenses from PSN?**
+No. This tool does not give you access to the PlayStation Store or allow you to download purchased content.
+
+**Can I activate my account through Sony?**
+No. This tool does not perform account activation. It only restores account data that was already present on another console.
+
+**Can I play online?**
+No. Online play is not possible with this tool.
+
+**What does this tool actually do?**
+It simply restores an account that was signed in on one console to another. It copies the account configuration from `config.dat` into the system registry so the target console recognizes the account.
+
 ## Credits
 
 By **earthonion**
